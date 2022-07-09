@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
 // import userModel from "../../model/userInfo/login"
-function Login() {
+function Login(props:any) {
     useEffect(()=>{
-        console.log('1231313')
+        console.log(props,'1231313')
     })
     return (
         <div>

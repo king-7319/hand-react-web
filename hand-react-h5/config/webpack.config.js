@@ -147,7 +147,7 @@ module.exports = function (webpackEnv) {
                                 // so that it honors browserslist config in package.json
                                 // which in turn let's users customize the target behavior as per their needs.
                                 require('postcss-px-to-viewport')({
-                                    viewportWidth: 750, // (Number) 转换的基础参考比例(设计稿的宽度)
+                                    viewportWidth: 375, // (Number) 转换的基础参考比例(设计稿的宽度)
                                     unitPrecision: 3, // (Number) 转换之后保留多少位小数
                                     viewportUnit: "vw", // (String) 转换之后的单位
                                     selectorBlackList: [], // (Array) 哪一些指定的选择器不进行转换

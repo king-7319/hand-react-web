@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './css/index.css'
 function App(props:any) {
     return (
-        <div>App首页</div>
+        <div className='box'>App首页</div>
     );
 }
 
